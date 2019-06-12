@@ -38,7 +38,7 @@ public class DistilleryRepositoryImpl implements DistilleryRepositoryCustom {
     }
 
     @Transactional
-    public List<Distillery> getDistilleryThatHaveWhiskiesOfAge(int age) {
+    public List<Distillery> getDistilleriesThatHaveWhiskiesOfAge(int age) {
 
         List<Distillery> result = null;
         Session session = entityManager.unwrap(Session.class);
