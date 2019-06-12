@@ -9,4 +9,6 @@ public interface DistilleryRepositoryCustom {
 
     List<Distillery> getDistilleriesFromRegion(String region);
 
+    List<Distillery> getDistilleryThatHaveWhiskiesOfAge(int age);
+
 }
